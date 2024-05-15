@@ -2,11 +2,15 @@ package hw3JavaVariablesDeclared;
 
 public class AboutMe {
 	String myHobby;// variable declared
-	String myName = "Maria"; // variable initialized
-	int myAge = 21;
-	float myHeight = 5.6f;
-	char myGender = 'F';
-	boolean iAmBengali = true;
+	String myName; // variable initialized
+	int myAge;
+	float myHeight;
+	char myGender;
+	boolean iAmBengali;
+	byte rollNumber;
+	short mobilePrice;
+	long birthYear;
+	double mykidneyPrice;
 
 	public AboutMe() { // constructor declared
 		System.out.println(" ------------ This is all about Myself -----------");
@@ -14,7 +18,9 @@ public class AboutMe {
 
 	public void aboutMe() {
 		System.out.println("My Name: " + myName + "\nMy Age: " + myAge + "\nMy Gender" + myGender + "\nMy Height"
-				+ myHeight + "\nI am from Bangladesh: " + iAmBengali);
+				+ myHeight + "\nI am from Bangladesh: " + iAmBengali + "\nMy roll:" + rollNumber + 
+				"\nMy mobile price:" + mobilePrice + "\nBirth year:" + birthYear +
+				"\nMy kidney price:" + mykidneyPrice);
 	}
 
 	public static void main(String[] args) {
