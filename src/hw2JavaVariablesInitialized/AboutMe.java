@@ -7,6 +7,10 @@ public class AboutMe {
 	float myHeight = 5.6f;
 	char myGender = 'F';
 	boolean iAmBengali = true; // test
+	
+	
+	
+	
 
 	public AboutMe() { // constructor declared
 		System.out.println(" ------------ This is all about Myself -----------");
